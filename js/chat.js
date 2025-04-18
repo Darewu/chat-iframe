@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Отправляем запрос к прокси (ЗАМЕНИТЕ URL НА СВОЙ!)
-            const response = await fetch('https://your-proxy.workers.dev', {
+            const response = await fetch('https://my-chat-proxy.dbolrad.workers.dev', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
